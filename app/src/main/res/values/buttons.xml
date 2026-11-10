@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Which app each remote button opens, as "keyCode:package". Find a button's keyCode by pressing it and
+         running: adb shell "logcat -d | grep 'Remote button pressed'"  (Fire OS logs every app-button press).
+         Tested remote (Hisense 55QD6QF Fire TV, Fire OS 8.1.8.0): Netflix 293 (KEYCODE_APP_1),
+         Peacock 299 (KEYCODE_APP_4). Other remotes may use other codes and buttons; check yours. -->
+    <string-array name="button_apps" translatable="false">
+        <item>293:org.smarttube.stable</item>
+        <item>299:com.stremio.one</item>
+    </string-array>
+</resources>

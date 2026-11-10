@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fire Buttons</string>
+    <string name="service_description">Opens the app of your choice when a Fire TV remote app button (Netflix, Peacock, Prime Video and the like) is pressed, instead of the app or Appstore page Fire OS ties to it.</string>
+</resources>
